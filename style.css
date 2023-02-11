@@ -1,0 +1,269 @@
+.pokemon-card {
+  width: 300px;
+  height: 415px;
+  background-color: #BBD348;
+  border: 8px solid yellow;
+  box-shadow: 2px 2px 8px #888;
+  border-radius: 10px;
+  align-items: center;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.header img {
+  width: 280px;
+  height: 160px;
+  border: 3.5px solid #d4d5cd;
+  margin-bottom: 10px;
+}
+
+
+.header h1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px #ddd;
+  text-align: left;
+  position: absolute;
+  top: -10px;
+  left: 10px;
+}
+
+.header h2 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #333;
+  text-shadow: 1px 1px #ddd;
+  text-align: left;
+}
+
+.header h3 {
+  font-size: 8px;
+  position: absolute;
+  font-weight: normal;
+  color: #333;
+  text-shadow: 1px 1px #ddd;
+  text-align: right;
+  top: 2px;
+  right: 52px
+  
+}
+
+.header h4 {
+  font-size: 20px;
+  position: absolute;
+  font-weight: normal;
+  color: #333;
+  text-shadow: 1px 1px #ddd;
+  text-align: right;
+  top: -26px;
+  right: 30px
+  
+}
+
+.header h5{
+  font-size: 8px;
+  position: fixed;
+  top: 12px;
+  left: 85px;
+  color:#333;
+  text-shadow: 1px 1px #ddd;
+  text-align: left;
+
+  
+}
+
+
+.moves h1 {
+  font-size: 16px;
+  position: fixed;
+  top: 245px;
+  left: 100px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.moves h2 {
+  font-size: 16px;
+  position: fixed;
+  left: 100px;
+  top: 293px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.moves h3 {
+  font-size: 16px;
+  position: fixed;
+  left: 270px;
+  top: 293px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.moves h4 {
+  font-size: 16px;
+  position: fixed;
+  left: 270px;
+  top: 235px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.infobar {
+  height: 10px;
+  width: 283px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 8px #888;
+  background-color: #d4d5cd;
+  position: fixed;
+  align-content: center;
+  top: 200px;
+  left: 25px;
+ 
+}
+
+.infobar h1 {
+  font-size: 7px;
+  text-align: center;
+  height: 10px;
+  width: 285px;
+  position: fixed;
+  align-content: center;
+  top: 196px;
+  left: 25px;
+ 
+}
+
+.logo1 {
+  position: relative;
+  top: -184px;
+  left: 264px;  
+}
+
+.logo2 {
+  position: relative;
+  top: 210px;
+  right: 260px;  
+}
+
+.logo3 {
+  position: relative;
+  top: 24px;
+  right: -2px;  
+}
+
+.desc h1 {
+  font-size: 8px;
+  text-align: left;
+  width: 210px;
+  height: 20px;
+  position: relative;
+  top:25px;
+  left: 0px;
+  
+}
+
+.desc h2 {
+  background-color: lightgray;
+  border-radius: 2px;
+  width: 210px;
+  height: 2px;
+  position: fixed;
+  top:342px;
+  left: 30px;
+  
+}
+
+.desc h3 {
+  font-size: 6px;
+  color:#333;
+  text-align: center;
+  width: 210px;
+  height: 20px;
+  position: relative;
+  top:58px;
+  left: 35px;
+}
+
+.illusbar h1{
+  position: absolute;
+  width: 110px;
+  height: 7px;
+  background-color: lightgray;
+  border: 1px solid grey;
+  top: 70px;
+  left: 170px;
+  text-align: right;
+  border-radius: 10px;
+}
+.logo4 {
+  position: absolute;
+  top: 100px;
+  left: 6px;
+}
+.weakness {
+  position: absolute;
+  top: 60px;
+  left: 5px;
+}
+
+.firenumber {
+  position: absolute;
+  top: 84px;
+  left: 24px;
+}
+.water{
+  max-width: 16px;
+  max-height: 16px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+.resistance {
+  position: absolute;
+  left: 90px;
+  top: 60px;
+}
+
+.waternumber {
+  position: absolute;
+  left: 120px;
+  top:84px;
+}
+
+.retreatinglogo1 {
+  position: absolute;
+  top:95px;
+  left: 250px;
+}
+
+.retreatinglogo2 {
+  position: absolute;
+  top: 95px;
+  left: 230px;
+}
+
+.basicLogo {
+  width: 70px;
+	height: 18px;
+	transform: skew(-20deg);
+	background: linear-gradient(to bottom, #C0C0C0, white, #C0C0C0);
+  position: absolute;
+  top: 22px;
+  left: 8px;
+  box-shadow: 7px 4px 6px black;
+}
+.basic {
+  font-weight: bold;
+  font-style: normal;
+  position: absolute;
+  font-size: 12px;
+  top: 25px;
+  left: 17px;
+}
